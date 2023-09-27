@@ -11,8 +11,29 @@ a {
   line-height: 1.5;
 }
 
-li {
+ul {
   list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+}
+
+.container { 
+max-width: 
+padding-left:  
+padding-right:  
+margin-left:  
+margin-right:  
 }
 
 .page-nav {
@@ -49,7 +70,7 @@ li {
 
 .button-order {
   cursor: pointer;
-  font-family: "Roboto", sans-serif;
+  font-family: inherit;
   font-weight: 500;
   line-height: 1.5;
   font-size: 16px;
@@ -83,6 +104,19 @@ li {
 .title-main {
   background-color: #2e2f42;
   text-align: center;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .button-order:hover,
