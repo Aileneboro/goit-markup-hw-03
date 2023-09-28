@@ -85,7 +85,6 @@ img {
   display: flex;
   gap: 40px;
   align-items: center;
-  padding: 24px 0;
 }
 
 .link:active,
@@ -99,6 +98,8 @@ img {
   justify-content: flex-end;
   align-items: center;
   gap: 40px;
+}
+a.link {
   padding: 24px 0;
 }
 
