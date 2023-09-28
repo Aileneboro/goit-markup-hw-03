@@ -40,7 +40,6 @@ img {
   padding-left: 15px;
   margin: 0 auto;
   overflow: hidden;
-  outline: 2px solid red;
 }
 
 .section {
@@ -255,8 +254,18 @@ ul > li > a {
 /* FOOTER */
 
 .footer-color {
-  color: #f4f4fd;
   background-color: #2e2f42;
+  padding-top: 102px;
+  padding-bottom: 100px;
+}
+
+.text-footer {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  max-width: 264px;
+  margin-top: 18px;
 }
 
 .logo .accent-white {
