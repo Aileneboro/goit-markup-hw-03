@@ -271,3 +271,7 @@ ul > li > a {
 .logo .accent-white {
   color: #f4f4fd;
 }
+
+footer > div > a {
+  display: inline-block;
+}
